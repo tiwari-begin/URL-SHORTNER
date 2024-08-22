@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@keyframes cloud-upload {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* .cloud-upload {
+  width: 48px;
+  height: 48px;
+  background-image: url("path/to/cloud-icon.svg");
+  background-size: contain;
+  animation: cloud-upload 2s ease-in-out infinite;
+} */
